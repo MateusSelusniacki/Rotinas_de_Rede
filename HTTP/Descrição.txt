@@ -1,0 +1,20 @@
+Protocolo HTTP
+
+Acesso por meio de um link, normalmente via dhcp. Pode ser acessado via IP e Port
+Utiliza metodos padrões para fazer as interações entre o usuário e o servidor.
+
+Metodos:
+    POST:
+        Metodo para envio de dados. O cliente envia dados para o servidor
+
+    GET: 
+        O Cliente obtem dados do servidor.
+
+    PATCH:
+        Atualiza os dados, mas apenas os dados enviados, mantendo os dados que não foram enviados os mesmo.
+
+    PUT:
+        Atualiza os dados, criando uma nova instancia, assim substitui todos os dados que estavam presentes na instancia anteriormente.
+
+    DELETE:
+        Exclui dados

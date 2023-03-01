@@ -1,0 +1,19 @@
+Protocolo TCP
+
+Não exige usuário
+Apenas troca dados sem verificações e por isso só exige IP, Porta e o dado que será enviado para funcionar.
+
+Definições:
+    IP (Procotolo de Internet):
+        Cabeçalho atrelado a um pacote de dados que contem informações de endereçamento
+    
+    Porta:
+        Define uma associação entre o IP e o serviço que será executado, é um valor númerico e por meio desse número 
+        o sistema consegue identificar qual processamento será executado com um pacote que chegou.
+
+Servidor:
+    O servidor permanece "escutando" em um IP e Porta, quando um pacote chega no IP e Porta que o servidor está esperando a rotina 
+    de processamento definida pelo servidor é iniciada.
+
+Cliente:
+    Empacota um dado e envia para um IP e Porta. Recebe uma resposta do servidor ao final da comunicação.
